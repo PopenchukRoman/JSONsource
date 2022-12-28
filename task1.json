@@ -1,41 +1,83 @@
 {
-  "squadName" : "Super Hero Squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
-  "active" : true,
-  "members" : [
-    {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
-      "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
-      ]
-    },
-    {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
-      ]
-    }
-  ]
-}
+   "distance_metric":[
+      {
+         "millimeter":"mm"
+      },
+      {
+         "centimeter":"cm"
+      },
+      {
+         "meter":"m"
+      }
+   ],
+   "distance_imperial":[
+      {
+         "inch":"in"
+      },
+      {
+         "feet":"ft"
+      }
+   ],
+   "convert_rule":[
+      {
+         "unit":"meter",
+         "koeff":39.37,
+         "convert_to":"inch"
+      },
+      {
+         "unit":"meter",
+         "koeff":3.28,
+         "convert_to":"feet"
+      },
+      {
+         "unit":"centimeter",
+         "koeff":0.3937,
+         "convert_to":"inch"
+      },
+      {
+         "unit":"centimeter",
+         "koeff":0.0328,
+         "convert_to":"feet"
+      },
+      {
+         "unit":"millimeter",
+         "koeff":0.03937,
+         "convert_to":"inch"
+      },
+      {
+         "unit":"millimeter",
+         "koeff":0.00328,
+         "convert_to":"feet"
+      },
+      {
+         "unit":"inch",
+         "koeff":0.0254,
+         "convert_to":"meter"
+      },
+      {
+         "unit":"inch",
+         "koeff":2.54,
+         "convert_to":"centimeter"
+      },
+      {
+         "unit":"inch",
+         "koeff":25.4,
+         "convert_to":"millimeter"
+      },
+      {
+         "unit":"feet",
+         "koeff":0.3048,
+         "convert_to":"meter"
+      },
+      {
+         "unit":"feet",
+         "koeff":30.48,
+         "convert_to":"centimeter"
+      },
+      {
+         "unit":"feet",
+         "koeff":304.8,
+         "convert_to":"millimeter"
+      }
+   ]
+}";"
